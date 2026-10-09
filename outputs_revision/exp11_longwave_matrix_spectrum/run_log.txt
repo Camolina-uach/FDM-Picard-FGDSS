@@ -1,0 +1,29 @@
+Coefficients (psi,eta,phi,chi,theta) = (1,2,2,1,1); all orders = s
+        [-20,20]^2 M= 16 h= 2.5000 s=1.2  lambda_min(-M_h)=8.095887e-02  asym=0.0e+00
+        [-20,20]^2 M= 24 h= 1.6667 s=1.2  lambda_min(-M_h)=8.038842e-02  asym=0.0e+00
+        [-20,20]^2 M= 32 h= 1.2500 s=1.2  lambda_min(-M_h)=8.007773e-02  asym=0.0e+00
+        [-20,20]^2 M= 48 h= 0.8333 s=1.2  lambda_min(-M_h)=7.974870e-02  asym=0.0e+00
+        [-20,20]^2 M= 64 h= 0.6250 s=1.2  lambda_min(-M_h)=7.957676e-02  asym=0.0e+00
+        [-20,20]^2 M= 16 h= 2.5000 s=1.5  lambda_min(-M_h)=4.157459e-02  asym=0.0e+00
+        [-20,20]^2 M= 24 h= 1.6667 s=1.5  lambda_min(-M_h)=4.138623e-02  asym=0.0e+00
+        [-20,20]^2 M= 32 h= 1.2500 s=1.5  lambda_min(-M_h)=4.127576e-02  asym=0.0e+00
+        [-20,20]^2 M= 48 h= 0.8333 s=1.5  lambda_min(-M_h)=4.115371e-02  asym=0.0e+00
+        [-20,20]^2 M= 64 h= 0.6250 s=1.5  lambda_min(-M_h)=4.108806e-02  asym=0.0e+00
+        [-20,20]^2 M= 16 h= 2.5000 s=1.8  lambda_min(-M_h)=2.205683e-02  asym=0.0e+00
+        [-20,20]^2 M= 24 h= 1.6667 s=1.8  lambda_min(-M_h)=2.204988e-02  asym=0.0e+00
+        [-20,20]^2 M= 32 h= 1.2500 s=1.8  lambda_min(-M_h)=2.203669e-02  asym=0.0e+00
+        [-20,20]^2 M= 48 h= 0.8333 s=1.8  lambda_min(-M_h)=2.201660e-02  asym=0.0e+00
+        [-20,20]^2 M= 64 h= 0.6250 s=1.8  lambda_min(-M_h)=2.200382e-02  asym=0.0e+00
+        [-20,20]^2 M= 16 h= 2.5000 s=2.0  lambda_min(-M_h)=1.468279e-02  asym=0.0e+00
+        [-20,20]^2 M= 24 h= 1.6667 s=2.0  lambda_min(-M_h)=1.473325e-02  asym=0.0e+00
+        [-20,20]^2 M= 32 h= 1.2500 s=2.0  lambda_min(-M_h)=1.475192e-02  asym=0.0e+00
+        [-20,20]^2 M= 48 h= 0.8333 s=2.0  lambda_min(-M_h)=1.476592e-02  asym=0.0e+00
+        [-20,20]^2 M= 64 h= 0.6250 s=2.0  lambda_min(-M_h)=1.477106e-02  asym=0.0e+00
+     [-8,8]^2, h=1 M= 16 h= 1.0000 s=1.2  lambda_min(-M_h)=2.431042e-01  asym=0.0e+00
+   [-12,12]^2, h=1 M= 24 h= 1.0000 s=1.2  lambda_min(-M_h)=1.483925e-01  asym=0.0e+00
+   [-16,16]^2, h=1 M= 32 h= 1.0000 s=1.2  lambda_min(-M_h)=1.046656e-01  asym=0.0e+00
+   [-24,24]^2, h=1 M= 48 h= 1.0000 s=1.2  lambda_min(-M_h)=6.407758e-02  asym=0.0e+00
+        [-10,10]^2 M= 16 h= 1.2500 s=2.0  lambda_min(-M_h)=5.873116e-02  asym=0.0e+00
+        [-10,10]^2 M= 32 h= 0.6250 s=2.0  lambda_min(-M_h)=5.900769e-02  asym=0.0e+00
+        [-10,10]^2 M= 64 h= 0.3125 s=2.0  lambda_min(-M_h)=5.908425e-02  asym=0.0e+00
+minimum over all cases: 1.468279e-02

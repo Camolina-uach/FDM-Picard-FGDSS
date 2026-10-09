@@ -1,0 +1,3 @@
+# Store every file byte for byte (no line-ending conversion), so that the
+# SHA-256 hashes in outputs_revision/artifact_manifest.json hold in any checkout.
+* -text

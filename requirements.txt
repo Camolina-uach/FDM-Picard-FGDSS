@@ -1,0 +1,8 @@
+# Runtime dependencies of the FGDSS Crank-Nicolson-Ortigueira-Picard solver.
+# Tested with Python 3.13, numpy 2.3.3, scipy 1.16.2, matplotlib 3.10.7.
+# The lower bounds below are conservative; newer releases are expected to work.
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.6
+# Thesis v4 additions (exp10): closed-form Riesz derivatives use mpmath.hyp1f1.
+mpmath>=1.3

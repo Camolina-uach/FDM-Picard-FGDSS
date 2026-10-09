@@ -1,0 +1,12 @@
+# Exact environment used for the final code tests and artifact rendering (2026-07-31).
+# Python 3.13.8
+numpy==2.3.3
+scipy==1.16.2
+matplotlib==3.10.7
+#
+# Thesis v4 additions (2026-09-29 to 2026-10-09): exp10_manufactured_longwave,
+# exp11_longwave_matrix_spectrum, exp12_fractional_order_profiles, the v4
+# figures, and tests/test_longwave_v4.py were run with Python 3.12.10,
+# numpy 2.5.2, scipy 1.18.1, matplotlib 3.11.1, mpmath 1.3.0 on Windows 11.
+# exp1-exp9 in outputs_revision are unchanged from the v3 snapshot.
+mpmath==1.3.0

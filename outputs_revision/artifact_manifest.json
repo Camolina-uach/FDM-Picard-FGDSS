@@ -1,0 +1,575 @@
+{
+  "active_artifact_sha256": {
+    ".gitattributes": "0158a4ced4e0d23323ed741b947f0ea9c216145c7c7df4d04c334bd2a1db024a",
+    ".gitignore": "f1182e46dd27033723c9e4ed9c1a95768ad4c122a656359e55f577d9816c1a67",
+    ".zenodo.json": "d52db0f5918a2f44190ec656fd00071cdfdbf3c393ee3fbfa2615eef5d641a3e",
+    "CHANGELOG.md": "f9de1b20b46f73b4574fe1068e0143dcb417a2fcabbeae4f2fc7e6707be677ff",
+    "CITATION.cff": "002a7a6c1851a6c8f008a4c7bfc25e6c8ec268dc6548da9c1a5cf28e3c594e2e",
+    "LICENSE": "1e5d3a18cb1d0012a2b2c0239499ac8327475aa7b0e7c7ee62855a7e3a461f16",
+    "README.md": "31ff5d9330cf2288f0b58e1dd25ee64cf413c4fd47b18067205e5afa2a268195",
+    "exp10_manufactured_longwave.py": "eab512afada0aa7193693bde806f43fc0ef7555ca0a060647a83a112bf591c23",
+    "exp11_longwave_matrix_spectrum.py": "7d0c0b9aec9189e4a84251d4f0ec46a65478952af60db71178072de6a7f4a1c2",
+    "exp12_fractional_order_profiles.py": "9cc3c1fda5e285c94c4aabcea80854b3113d88a61e551471b5c2f7bf445c0d50",
+    "export_thesis_assets.py": "9e83dc4743cc47b630419adec130a6f33ba95e0ce3b8c7954cf15c699c3bb3e8",
+    "fgdss_babaoglu.py": "2379b2245c8891954a2c7c5b3bb2e15c3bd01e8bd27ba0cf7f79c0668db101ae",
+    "fgdss_experiments.py": "9f5718592d37bf1165158f1bf9a8522b5096fb9ef74076bea27b7baa9c59da43",
+    "fgdss_fd_operators.py": "a4b448ed1d7b03d582d10868c2654504de640a33c8914bc986168e3bc87f1c65",
+    "fgdss_plots.py": "22d3ec5411be54ed1b98d8b4d84b0ff0009d29dbaab874facb09536ec94ced7d",
+    "fgdss_solver.py": "6018075afbd219da5af027c8e6ccd2b485b56272b453899c840007f2f84fb562",
+    "fgdss_tables.py": "4c4b168ec6acec062da705bd6ae9b83a5d88ce2329d55ab885c4abc5f903299a",
+    "make_artifact_manifest.py": "de1b3fb8fd59fa69403f858773c5bb3889d428b12ca19669d3489dd3a769dde7",
+    "outputs_revision/exp10_manufactured_longwave/manufactured_longwave.csv": "28e31cacacc1989af54d839a365ed57a0f2e49959c7e894c80cf8cbc7400c476",
+    "outputs_revision/exp10_manufactured_longwave/run_log.txt": "7186dffbdd3be075b0cceacb066224a0c2c92e91e3049389cf4b8dbf2ccf0ae4",
+    "outputs_revision/exp11_longwave_matrix_spectrum/longwave_matrix_spectrum.csv": "6d3f0f44965c8c2e61861a78e70537bec5336b042fc4f06d687555ce50308b90",
+    "outputs_revision/exp11_longwave_matrix_spectrum/run_log.txt": "70177b232b7fe25b16b0f2c6e734d04a75bec93173ed9d9f36990470e37b6024",
+    "outputs_revision/exp12_fractional_order_profiles/check_against_exp2.json": "6d5aef8b6fb51aa1daa38fe6e26c8690dbbae637c8e56411a70e2961ef274910",
+    "outputs_revision/exp12_fractional_order_profiles/pulse_statistics.csv": "e6c41b0defa3c79ca16c1c38d3c54c5e3538cb815a480d930478235fbf89f7ef",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.2/diagnostics.csv": "938c18182f51da6cf618d3290bb79d0525b65c8269cc924a1cafe6ecfa2ddb9f",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.2/final_fields.npz": "e79fc66ab1b35d7eeb1a9050a2e5993591e26d575c75b343b9a0253363cdc445",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.2/params.json": "50811d093bd15de6656b59542f44b8f8486578b84045108f88412f31ecf4bb54",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.2/snapshots/snapshot_manifest.json": "f16c539ba6754d5a7ddc6d3f8e30f10ce86d73a6b9dbcac65f550229b6107e96",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.2/snapshots/t_0.000000.npz": "a53e186b8973f428d688f7887d382184cf50b835410669d17c5f72ee19a1a5ce",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.2/snapshots/t_0.100000.npz": "1798a4cfdf6573adfb9df2003a364f0917dafb7b85a5b0936b5380515d532c8a",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.2/snapshots/t_0.200000.npz": "f8e85dc391afcb6811963fd7f16e91154ab21683bcef72375ebba88429972dc6",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.2/snapshots/t_0.300000.npz": "0e0b432a4ebadbe789796497de76486eeb6524d3f5b81569cb9cc8385f77b989",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.2/snapshots/t_0.400000.npz": "d44571c56b8dc6cccff423f936dd1067aff7e1cdaf606fab2585e113351b53f1",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.2/snapshots/t_0.500000.npz": "b0a354d9ab08f14a68176b046f08529aa594b2d1b151fc9020750c533df4f0ba",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.2/snapshots/t_0.600000.npz": "bd7d40c44c5bc75bcb0ef82bd80dd356b0362a77ce44b2065fe56736aba9855d",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.2/snapshots/t_0.700000.npz": "f9089130dd2cd8b5dff4644bd44ad30a318cc8e870d0183172a7b558b9feeecd",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.2/snapshots/t_0.800000.npz": "d993c68f1354e3f51246f56e3e0c1388ca3eaea2b2650330f56c84d87b8d33ce",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.2/snapshots/t_0.900000.npz": "66826aa3c38adfecd1af2a12a82177a0243e8334c64e80f8641d32e73fd3f2b2",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.2/snapshots/t_1.000000.npz": "398a5451a688c841a8ebfab64cf87feb29b88b5691aa0be1531c5545efa27119",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.5/diagnostics.csv": "a70f59c988eccdbb4d16e1efdf0cbf332e4df00be773dc3573d1ee09e1a0d857",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.5/final_fields.npz": "204b7e94f54a12c67e37b32258ff6af5e2eeb74e2fa42bbc8adde78e49559124",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.5/params.json": "2aec00126a3aceeeb2e9eb9766bf5144013b38048f595c1ef91cac6cc78ed6bb",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.5/snapshots/snapshot_manifest.json": "f16c539ba6754d5a7ddc6d3f8e30f10ce86d73a6b9dbcac65f550229b6107e96",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.5/snapshots/t_0.000000.npz": "685c886449bc53c392ffe02e9d40a15abe17c31522362d755c1d1db8522862e1",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.5/snapshots/t_0.100000.npz": "fd8a20d231bcd1acf14984c1636593a5f240f46703cca8398bd916089db89fc6",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.5/snapshots/t_0.200000.npz": "b1cc96670343ea397473786ea4528ca4c72abe409c4df2bc4ec924711c3de256",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.5/snapshots/t_0.300000.npz": "4a3f863a3d3de62922de4f08cc0b39c85dc8758786d6308f657777b87ecbe11f",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.5/snapshots/t_0.400000.npz": "655246f4134756948c2f568d2082c67bd0f622c6376f6b6a55e59bc4ddcf67ee",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.5/snapshots/t_0.500000.npz": "256db115ea69075dc9924f4fce21774a9b71a286b52fbba98df55b6ec4f57ccf",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.5/snapshots/t_0.600000.npz": "8fdadde8b54be49e3f1993a19dea2948f7678138940101841b00bee43d35b571",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.5/snapshots/t_0.700000.npz": "2c9f3c41e3be29996a0547956dc3fe770ccb6c62020cebdfbdb2ed5c44f28d8e",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.5/snapshots/t_0.800000.npz": "1827a1f5480defdfbc8c08552e574d8e90f4c7e5f771594850944d5fa63b8e88",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.5/snapshots/t_0.900000.npz": "1739cfbf205d006cfa047ee82f1f9453dbc6e477db6214e8ba1599a2a426592c",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.5/snapshots/t_1.000000.npz": "4f0c8623b95bcc8b6a94800c479266dc56eff0bb96495916f645ef25e288b2da",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.8/diagnostics.csv": "714e7e0030975a6696b7d6bde0a1d3a5151f240dadc0406906afda04ac6b920b",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.8/final_fields.npz": "18c1dd08e6c7f6297aaf5bc9161450e20935dca629de9f8e45042279213de627",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.8/params.json": "75f8039ffc2b4b30c48e9bf66b5afabb9ae065f247386492245171db1da62121",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.8/snapshots/snapshot_manifest.json": "f16c539ba6754d5a7ddc6d3f8e30f10ce86d73a6b9dbcac65f550229b6107e96",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.8/snapshots/t_0.000000.npz": "0001211411ba509811ea01cfe9594d8203226adc05dfdeb11717615b8e95de48",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.8/snapshots/t_0.100000.npz": "6c32f16eaaf75fe416862ab6cf8667ecaf89f77f08733f94d6de99e87b7f1ca7",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.8/snapshots/t_0.200000.npz": "5c67cc1e990be4ddc6c4e9d28fe626a007535c6cc843826202ce00b52419fc4b",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.8/snapshots/t_0.300000.npz": "a67e3711bcf9c6a531c353ac7c6cb11248f3b2844c05338b28778c3b86c84171",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.8/snapshots/t_0.400000.npz": "b97ad77b5928672309168d1abcf49a3c1aa5b037240c560cdd789e7b1f619d64",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.8/snapshots/t_0.500000.npz": "c147cc32a0d73ffef3ab3057f03a51e63dc14a873abaa29893f7e1d780b3e351",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.8/snapshots/t_0.600000.npz": "b731acccc03f08a7d257b43f5f7e40411378a36698c9b2e054af826385409230",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.8/snapshots/t_0.700000.npz": "a1337e0c194ed694ef9ea2729c343516c394a56175e843ad643336e8fa23fa2c",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.8/snapshots/t_0.800000.npz": "99fdd903fcdd23e15766fbcc07a19e6409bd3ab22a3eece6b3af68d65ac6620e",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.8/snapshots/t_0.900000.npz": "195872d0b50ef2ac000bfe2d80fb533f3144cd364f585c216bd74013ce6e94e0",
+    "outputs_revision/exp12_fractional_order_profiles/s_1.8/snapshots/t_1.000000.npz": "5d87b26ffdadfa120d13c030e56b7a1c99aefe0b7aab63df5ce5f8433111d75d",
+    "outputs_revision/exp12_fractional_order_profiles/s_2.0/diagnostics.csv": "aaa5d8390638c29fbdf42341efbbd113f5b011d23969b331a0b04ee875ad9b31",
+    "outputs_revision/exp12_fractional_order_profiles/s_2.0/final_fields.npz": "54d4d36a073746362f6356d8f925da4e68a440877d7770f92fe74fdaa235df49",
+    "outputs_revision/exp12_fractional_order_profiles/s_2.0/params.json": "dc65d58039c8230414c106494e55b6704f5c18dbdd07d30e043d3ccb90622ad2",
+    "outputs_revision/exp12_fractional_order_profiles/s_2.0/snapshots/snapshot_manifest.json": "f16c539ba6754d5a7ddc6d3f8e30f10ce86d73a6b9dbcac65f550229b6107e96",
+    "outputs_revision/exp12_fractional_order_profiles/s_2.0/snapshots/t_0.000000.npz": "369383e13c618dcb5d519435ab1a1f32569c3ace7944dbfd1936e327bed8701c",
+    "outputs_revision/exp12_fractional_order_profiles/s_2.0/snapshots/t_0.100000.npz": "c541789611b7570b0268e8b7552708cdc57cd3938245dc1832998be6dc01cca2",
+    "outputs_revision/exp12_fractional_order_profiles/s_2.0/snapshots/t_0.200000.npz": "ec1fc42ce9fe59215eaa6dd5f098972432cc6ef447f5890a771eb6aa2c010397",
+    "outputs_revision/exp12_fractional_order_profiles/s_2.0/snapshots/t_0.300000.npz": "2d124cfdde973f08cbedbf031f3b28c70894dbc6099392bcb7a456481bfc68b3",
+    "outputs_revision/exp12_fractional_order_profiles/s_2.0/snapshots/t_0.400000.npz": "ea0daf7457309f8f3d6e293a308b58884c00eb3899865a7207dd42a61b8bc8d2",
+    "outputs_revision/exp12_fractional_order_profiles/s_2.0/snapshots/t_0.500000.npz": "037a624b7366dbf5e1a7d2c1fc00deb12e8575d19069be0d0666fef88e2c57b8",
+    "outputs_revision/exp12_fractional_order_profiles/s_2.0/snapshots/t_0.600000.npz": "2821e6b682d2cb1ea8c25b59f41e61c962fed5439e13ae2b6593d27c77fd6afe",
+    "outputs_revision/exp12_fractional_order_profiles/s_2.0/snapshots/t_0.700000.npz": "b7cfcbabbb6e3b569e8c6955700d5d4e9c5e727504bd1f4f8eb7972bf572ddb3",
+    "outputs_revision/exp12_fractional_order_profiles/s_2.0/snapshots/t_0.800000.npz": "06d203109e1af57d9c60f20be470dc6cfdfbc669bb371e3f904ce86f1a2335c8",
+    "outputs_revision/exp12_fractional_order_profiles/s_2.0/snapshots/t_0.900000.npz": "13eb3b9849deb913cacb93384f628bcd2750647b21b42b5a782f3acfa522c350",
+    "outputs_revision/exp12_fractional_order_profiles/s_2.0/snapshots/t_1.000000.npz": "616a19c73b987be458202e7a7c24be0254fe1787b86a7eed522965d63470e335",
+    "outputs_revision/exp1_operator_verification/operator_verification.csv": "bf8639d6ccc1fbd225286566dc992be63cee2b7824ffd80b75060591164dae49",
+    "outputs_revision/exp2_source_free_conservation/diagnostics.csv": "83cda7522e8731551a01222bbb19f26ef571e2c65ed9656326a20685e942ddb8",
+    "outputs_revision/exp2_source_free_conservation/final_fields.npz": "fef6a271ac368a67d54ccb3622deadb21efa5bc6880b9f7ea96d39e71eb3239d",
+    "outputs_revision/exp2_source_free_conservation/params.json": "38917945ec3b0966b2a5e27629cfed7ee173e26be9f66a64d744028eccb5c6f7",
+    "outputs_revision/exp2_source_free_conservation/snapshots/snapshot_manifest.json": "9ff664c512f327f5fa8c1292076343dd3076038c248ef00bd0584d7718afa8be",
+    "outputs_revision/exp2_source_free_conservation/snapshots/t_0.000000.npz": "9bb320b23602b17dff51be81ae4d668b8c829aec8c0fafee296874f7ded218b9",
+    "outputs_revision/exp2_source_free_conservation/snapshots/t_0.500000.npz": "c0ddde9c3488c21c828726c2c42dc22ac37db7a9dbf17d21a74cc857d49655de",
+    "outputs_revision/exp2_source_free_conservation/snapshots/t_1.000000.npz": "3f540ea56bdaf89c972a0a1fa2714851bd6150c621f53fab856a6b17eddb1bd4",
+    "outputs_revision/exp2_source_free_conservation/summary.json": "6bc8dede08280863eeba4a70c02dc29d31a97cd4b35b8a94821492cc6c5000a4",
+    "outputs_revision/exp3_time_convergence/time_convergence.csv": "1426d1e84329dea27d14b6b04d5376f060af60df02c674728758563a9983920a",
+    "outputs_revision/exp4_spatial_convergence/spatial_convergence.csv": "942d886798f501ba247b6a0cd7c3ea5af9dcf39fffbebd6932dfdb5d1a85e1b2",
+    "outputs_revision/exp5_fractional_order_sensitivity/fractional_order_sensitivity.csv": "ae6f34384abe15ca5034306aca7ca4e788ff8ebbe5527d4631ffce876ecece9d",
+    "outputs_revision/exp6_integer_analytic_convergence/integer_analytic_convergence.csv": "0a9de238d8fc2c218a2923da2673a8dffedd69b4a5577ca74087e78286f9a9af",
+    "outputs_revision/exp7_momentum_residual_balance/momentum_residual_balance.csv": "658a21b1aee65cd59eb3a55584fbfc0f9c04710e07354000a891bfee8fe61773",
+    "outputs_revision/exp7_momentum_residual_balance/summary.json": "a44e0a55e6c5ce3ceb5d95d14a17715f60d432a0521b524b87d1f9e969b6db72",
+    "outputs_revision/exp8_boundary_domain_sweep/boundary_domain_sweep.csv": "951c3fa049612aa4576ae9a6113feb495a02bdb971d594b3d8ae3b989f537a86",
+    "outputs_revision/exp9_performance_scaling/performance_scaling.csv": "c27c1c80ab72679e0569b5233cf560123f2e92287d22b7844ea2eb6feb1fb570",
+    "outputs_revision/figures/exp12/fractional_order_fields_maps.pdf": "cc11491bf3c4a4af345ac4b8127f059363cf7454d62ba57dad33a473bf4f2e0a",
+    "outputs_revision/figures/exp12/fractional_order_fields_maps.png": "206a393808fd7e5e904e1dda042efe12091846779312cf4a57fc934f5a48809f",
+    "outputs_revision/figures/exp12/fractional_order_fields_surfaces3d.pdf": "692c008b874cae392c4ef8f9edaf506c6ca3061f478830e14c60fb9bff211147",
+    "outputs_revision/figures/exp12/fractional_order_fields_surfaces3d.png": "869f5f7fcb6628750757719be8a88ef6da0d61d26460cdb47780460778bbedc8",
+    "outputs_revision/figures/exp12/fractional_order_profiles.pdf": "20e7b1078f427eb966a1622b28eb2cbc44087b12ad2a14289c61b440b3ec6c4d",
+    "outputs_revision/figures/exp12/fractional_order_profiles.png": "17d178b8baf8ccb8162a5f3346f51327ee974587c64754485011ad44e500a4e4",
+    "outputs_revision/figures/exp12/fractional_order_surfaces3d.pdf": "50747e3d9a703019ba04ac664bc7a2f65f305ee1fe9de864f91b4e7ef2137869",
+    "outputs_revision/figures/exp12/fractional_order_surfaces3d.png": "c8649eeff016c8b2fba8d2ef7ae33e9beafa9f377a2c7e769e165beaba06c6bd",
+    "outputs_revision/figures/exp2/absU_surface3d.pdf": "7415f1706285e4aaa9de6befa2ecd3e27a3e322f91e69b5373c24ec4be612474",
+    "outputs_revision/figures/exp2/absU_surface3d.png": "a5583187800ee5da42f6b25622f6fce6b2ad9aedce638e1fab76b14a2dcffb42",
+    "outputs_revision/figures/exp2/diagnostic_relative_drifts.pdf": "bd973aef0c5491ed5f7f3abc2d301b5a9c063cc51e7399e62cb863fe004c43cf",
+    "outputs_revision/figures/exp2/diagnostic_relative_drifts.png": "ddcf850c2f20f3e5e535012a90ef6647c6ebf79b31875fc472e5151ecc0aa664",
+    "outputs_revision/figures/exp2/fields_surface3d.pdf": "3b5535f412b8a58ae31c9f23cee820df72f0a343bb25f7a51cf0191478cde297",
+    "outputs_revision/figures/exp2/fields_surface3d.png": "abe8f391f8c50e9f5b3ae16c6eb04dffa2506de1afe483196f06a6ee1b7912b3",
+    "outputs_revision/figures/exp2/final_fields_contours.pdf": "ea4cf2761e51841c9ee81d253f9abbcbf87d959748b60e375a34604356ba1979",
+    "outputs_revision/figures/exp2/final_fields_contours.png": "fbb500cd6ded28bc9cc8032ce24481813608657b535a4073c9fc1664ca245e2a",
+    "outputs_revision/figures/exp2/longwave_profiles.pdf": "a26e4d244805ebef25aff39ed3a122f9bc711750bec84861918eaa9af88f0660",
+    "outputs_revision/figures/exp2/longwave_profiles.png": "5140318d5cecc3878dd25de98791df09481351797c729c87a1e79ebc9b68f2f0",
+    "outputs_revision/figures/exp2/pulse_profiles.pdf": "b0c9f3969e9947c06536495c4430102039a3367035d8c906a0f77baed14df23d",
+    "outputs_revision/figures/exp2/pulse_profiles.png": "ac4ee34e32f53bdb50e252a2cb74a2d92b5c525eae527ac9c5a0249ec8f1c041",
+    "outputs_revision/figures/exp3/time_convergence.pdf": "3c429fbf4085782ad538a37cf316e888b0a26fff5ce3b9848798b6f40d971d43",
+    "outputs_revision/figures/exp3/time_convergence.png": "74cfc90a7de942b04d420b594ca2523d7bda7fe2d462f48cad405a87206e2d47",
+    "outputs_revision/figures/exp4/spatial_convergence.pdf": "f2ac50151f49e97f6e626f617dc329bdeb6f70081266f6131df905915156e228",
+    "outputs_revision/figures/exp4/spatial_convergence.png": "701a27ba7815398a0931482a4886ab8797560b5cd90c5e90a3972e3e45f875d9",
+    "outputs_revision/figures/exp5/fractional_order_drifts.pdf": "8f9e6b2a44cd3b2bbafc3c9d8e9b777d21627e1c53932445f6d0b2eb3321d4b0",
+    "outputs_revision/figures/exp5/fractional_order_drifts.png": "1a54120fcd07c04fcf2a1e7bf1f6c8f323da523f8aabcee8fce984ac05e0160f",
+    "outputs_revision/figures/exp6/integer_analytic_convergence.pdf": "77f6e3eb86edd87e145be4a067e9afa2675f8efa913ac2c5f4904eb61108dbc8",
+    "outputs_revision/figures/exp6/integer_analytic_convergence.png": "77c8524f5724063f3e658f4ad771f1591ee969a07ade6ee80ffc1a3e6c3d4573",
+    "outputs_revision/figures/exp7/momentum_residual_balance.pdf": "b148650aca0a13f6de7c9d4e026e8b1325222bd3e2a3ebb8cfbc24911a68478c",
+    "outputs_revision/figures/exp7/momentum_residual_balance.png": "1c9be362d0ba27a270e09bc6a010b1ffaa19217d0370d376fdc29d45a8c9c670",
+    "outputs_revision/figures/exp8/boundary_domain_sweep.pdf": "fdba3d5ca28025dbec6eac1ca5b5d79b002faad3f9302cbf2d97563c82df3948",
+    "outputs_revision/figures/exp8/boundary_domain_sweep.png": "f6e1948de23d27d6e6e3600fb0b3798e3e673b249fed6203efbf08db87f0a19d",
+    "outputs_revision/figures/exp9/performance_scaling.pdf": "75cd1625c4ed06510d2d0ba8935c2f9f525ffe710680810eb0617a7e76013961",
+    "outputs_revision/figures/exp9/performance_scaling.png": "55e36cd66fd20ef0e92ce7aaa9d7d532f06559975a234f403e8afe6e6757f38d",
+    "outputs_revision/revision_metadata.json": "fe845b50eae2b5f757a18b23eee9f9bb2bba9610ae7ac71f495dcfd64549581d",
+    "outputs_revision/tables/exp10_manufactured_longwave_table.tex": "4e4e43d7271862636546eb664acc115c7482d2276114d79ce5923aa753c79c0b",
+    "outputs_revision/tables/exp2_conservation_table.tex": "086b72f28d81a28b1ea85a090d3888d567f3150de25e9ce128792f134b60ef6a",
+    "outputs_revision/tables/exp3_time_convergence_table.tex": "b53eaf11e5c22a8af40eef5a989aa857c6adc2eab67c4073d9a016a96e3fd69e",
+    "outputs_revision/tables/exp4_spatial_convergence_table.tex": "fd957a734edad6b4f9e809c82310ac3c4a1f0d3e0463e920da6ecbf6c4bd8427",
+    "outputs_revision/tables/exp5_fractional_table.tex": "d8b5f7febe3b377646e2355fb805114f6da5f061703bf4535e160f40b078c001",
+    "outputs_revision/tables/exp6_analytic_convergence_table.tex": "3f21284fce2ff381d565301073bc0ea710a243b1faff083e11495c3903882720",
+    "outputs_revision/tables/exp7_momentum_table.tex": "90775b5d9244e96d6686f4ebac4c64923f228ebccce09f908791bb25f55ec031",
+    "outputs_revision/tables/exp8_boundary_table.tex": "efe1720e2777200df03e3d15c4d44971c07b2e3c1ceb1ffaeb76fb0b197ea655",
+    "outputs_revision/tables/exp9_performance_table.tex": "770568d14cd1d6082aed09372170f59a10f3f7424147f36f257a5daf00c5eca8",
+    "requirements-lock.txt": "56ba742d2a3eec3f90733018354110a8e4c8ac8cc6450d421f064afbe746f546",
+    "requirements.txt": "c19f1ea83b4be754773fffd6076a15ac9c1618c0805c49493cef589012c36e9b",
+    "run_fgdss.py": "d240197bffb6f143c63cb4fc0bb735050ae712a3dd997e149959edc5cd2c3caf",
+    "tests/__init__.py": "2993d119a551eecbbf7d4bce3ae27b2db181b5b47bbe8aa3a257e5d3a660fec9",
+    "tests/test_fgdss.py": "28314721677b254ade9b1863cc01d7efbb1437a0aecf971f449d216c3a7d624d",
+    "tests/test_longwave_v4.py": "1c338db6acad04f8355b4fb3e2c25ba1b1f9ed611f89f52675169803f303cbf5"
+  },
+  "configuration": {
+    "common": {
+      "boundary_realization": "homogeneous Dirichlet by zero extension",
+      "coefficients": {
+        "alpha": 1.0,
+        "beta": 1.0,
+        "chi": 1.0,
+        "eta": 2.0,
+        "gamma": 1.0,
+        "phi": 2.0,
+        "psi": 1.0,
+        "theta": 1.0,
+        "xi": 1.0
+      },
+      "default_orders": {
+        "kappa": 1.2,
+        "lambda": 1.2,
+        "mu": 1.2,
+        "nu": 1.2,
+        "rho": 1.2,
+        "sigma": 1.2
+      },
+      "default_packet": {
+        "amplitude": 0.25,
+        "center": [
+          0.0,
+          0.0
+        ],
+        "sigma_x": 4.5,
+        "sigma_y": 3.0,
+        "wave_numbers": [
+          0.35,
+          0.2
+        ],
+        "window": "domain sin-squared window"
+      },
+      "picard": {
+        "maximum_iterations": 30,
+        "relaxation": 1.0,
+        "tolerance": 1e-10
+      }
+    },
+    "exp10_manufactured_longwave": {
+      "common_orders": [
+        1.2,
+        1.5,
+        1.8,
+        2.0
+      ],
+      "domain": [
+        -12.0,
+        12.0,
+        -12.0,
+        12.0
+      ],
+      "environment": "Python 3.12.10, numpy 2.5.2, scipy 1.18.1, mpmath 1.3.0, Windows 11",
+      "fields": "w* = p(x/a) e(y/a), v* = e(x/a) p(y/a), e(u) = exp(-u^2), p(u) = u exp(-u^2), a = 2",
+      "grids_M_equals_N": [
+        16,
+        24,
+        32,
+        48,
+        64
+      ],
+      "long_wave_coefficients": {
+        "chi": 1.0,
+        "eta": 2.0,
+        "phi": 2.0,
+        "psi": 1.0,
+        "theta": 1.0
+      },
+      "sensitivity": "solve with theta = 0 in M_h, sources computed with theta = 1",
+      "sources": "closed-form Riesz derivatives (confluent hypergeometric 1F1, mpmath)",
+      "status": "thesis v4 addition (Section 5.6)"
+    },
+    "exp11_longwave_matrix_spectrum": {
+      "cases": "all grids, domains, and common orders used in Chapter 5",
+      "environment": "Python 3.12.10, numpy 2.5.2, scipy 1.18.1, Windows 11",
+      "quantity": "smallest eigenvalue of -M_h (eigsh, shift-invert at 0)",
+      "status": "thesis v4 addition (Section 5.1)"
+    },
+    "exp12_fractional_order_profiles": {
+      "M": 48,
+      "N": 48,
+      "check": "s = 1.2 run reproduces the archived exp2 final field (8.5e-14)",
+      "common_orders": [
+        2.0,
+        1.8,
+        1.5,
+        1.2
+      ],
+      "domain": [
+        -20.0,
+        20.0,
+        -20.0,
+        20.0
+      ],
+      "dt": 0.0025,
+      "environment": "Python 3.12.10, numpy 2.5.2, scipy 1.18.1, matplotlib 3.11.1, Windows 11",
+      "figures": "profiles/peak/centroid (2x2); log10|U| surfaces at t = 1, clipped at 1e-5; maps and surfaces of |U|, W, V per order (4x3)",
+      "packet": {
+        "amplitude": 0.6,
+        "kx0": 0.6,
+        "ky0": 0.3,
+        "sigma_x": 3.5,
+        "sigma_y": 3.5
+      },
+      "snapshot_times": "every 0.1 time units",
+      "status": "thesis v4 addition (Section 5.7)",
+      "t_final": 1.0
+    },
+    "exp1_operator_verification": {
+      "checks": [
+        "symmetry",
+        "full 1D spectrum",
+        "sample quadratic form"
+      ],
+      "directions": [
+        "x",
+        "y"
+      ],
+      "grids_M_equals_N": [
+        16,
+        24,
+        32,
+        48
+      ],
+      "orders": [
+        1.2,
+        1.5,
+        1.8,
+        2.0
+      ],
+      "status": "regenerated in final environment"
+    },
+    "exp2_source_free_conservation": {
+      "M_equals_N": 48,
+      "active_snapshot_times": [
+        0.0,
+        0.5,
+        1.0
+      ],
+      "coefficients": {
+        "alpha": 1.0,
+        "beta": 1.0,
+        "chi": 1.0,
+        "eta": 2.0,
+        "gamma": 1.0,
+        "phi": 2.0,
+        "psi": 1.0,
+        "theta": 1.0,
+        "xi": 1.0
+      },
+      "diagnostic_stride_steps": 40,
+      "domain": [
+        -20.0,
+        20.0,
+        -20.0,
+        20.0
+      ],
+      "dt": 0.0025,
+      "orders": {
+        "kappa": 1.2,
+        "lambda": 1.2,
+        "mu": 1.2,
+        "nu": 1.2,
+        "rho": 1.2,
+        "sigma": 1.2
+      },
+      "packet": {
+        "amplitude": 0.6,
+        "center": [
+          0.0,
+          0.0
+        ],
+        "sigma_x": 3.5,
+        "sigma_y": 3.5,
+        "wave_numbers": [
+          0.6,
+          0.3
+        ],
+        "window": "domain sin-squared window"
+      },
+      "retained_run_fail_on_nonconvergence": false,
+      "saved_diagnostics_all_converged": true,
+      "status": "retained and checked long run",
+      "t_final": 1.0
+    },
+    "exp3_time_convergence": {
+      "M_equals_N": 24,
+      "domain": [
+        -20.0,
+        20.0,
+        -20.0,
+        20.0
+      ],
+      "dt": [
+        0.0016,
+        0.0008,
+        0.0004,
+        0.0002,
+        0.0001
+      ],
+      "packet": {
+        "amplitude": 0.25,
+        "center": [
+          0.0,
+          0.0
+        ],
+        "sigma_x": 4.5,
+        "sigma_y": 3.0,
+        "wave_numbers": [
+          0.35,
+          0.2
+        ],
+        "window": "domain sin-squared window"
+      },
+      "picard_tolerance": 1e-13,
+      "status": "regenerated in final environment",
+      "t_final": 0.016
+    },
+    "exp4_spatial_convergence": {
+      "domain": [
+        -20.0,
+        20.0,
+        -20.0,
+        20.0
+      ],
+      "dt": 0.00025,
+      "grids_M_equals_N": [
+        16,
+        32,
+        64
+      ],
+      "packet": {
+        "amplitude": 0.25,
+        "center": [
+          0.0,
+          0.0
+        ],
+        "sigma_x": 4.5,
+        "sigma_y": 3.0,
+        "wave_numbers": [
+          0.35,
+          0.2
+        ],
+        "window": "domain sin-squared window"
+      },
+      "restriction": "exact sampling on nested nodes",
+      "status": "retained and checked run",
+      "t_final": 0.002
+    },
+    "exp5_fractional_order_sensitivity": {
+      "M_equals_N": 48,
+      "common_orders": [
+        2.0,
+        1.8,
+        1.5,
+        1.2
+      ],
+      "diagnostic_stride_steps": 2,
+      "domain": [
+        -20.0,
+        20.0,
+        -20.0,
+        20.0
+      ],
+      "dt": 0.0005,
+      "packet": {
+        "amplitude": 0.25,
+        "center": [
+          0.0,
+          0.0
+        ],
+        "sigma_x": 4.5,
+        "sigma_y": 3.0,
+        "wave_numbers": [
+          0.35,
+          0.2
+        ],
+        "window": "domain sin-squared window"
+      },
+      "status": "retained and checked run",
+      "t_final": 0.01
+    },
+    "exp6_integer_analytic_convergence": {
+      "domain": [
+        -10.0,
+        10.0,
+        -10.0,
+        10.0
+      ],
+      "dt": 0.0025,
+      "exact_mode_indices": [
+        1,
+        1
+      ],
+      "gamma": 0.0,
+      "grids_M_equals_N": [
+        16,
+        32,
+        64
+      ],
+      "orders": "all set to 2",
+      "status": "retained and checked run",
+      "t_final": 0.05,
+      "xi": 0.0
+    },
+    "exp7_momentum_residual_balance": {
+      "M_equals_N": 32,
+      "diagnostics": "every time step",
+      "domain": [
+        -20.0,
+        20.0,
+        -20.0,
+        20.0
+      ],
+      "dt": 0.0005,
+      "packet": {
+        "amplitude": 0.25,
+        "center": [
+          0.0,
+          0.0
+        ],
+        "sigma_x": 4.5,
+        "sigma_y": 3.0,
+        "wave_numbers": [
+          0.35,
+          0.2
+        ],
+        "window": "domain sin-squared window"
+      },
+      "status": "retained and checked run",
+      "t_final": 0.01
+    },
+    "exp8_boundary_domain_sweep": {
+      "M_equals_N": [
+        16,
+        24,
+        32,
+        48
+      ],
+      "diagnostics": "every time step",
+      "dt": 0.0005,
+      "h": 1.0,
+      "half_widths": [
+        8.0,
+        12.0,
+        16.0,
+        24.0
+      ],
+      "packet": {
+        "amplitude": 0.25,
+        "center": [
+          0.0,
+          0.0
+        ],
+        "sigma_x": 4.5,
+        "sigma_y": 3.0,
+        "wave_numbers": [
+          0.35,
+          0.2
+        ],
+        "window": "common compact cosine-squared window",
+        "window_half_width": 8.0
+      },
+      "status": "regenerated in final environment",
+      "t_final": 0.01
+    },
+    "exp9_performance_scaling": {
+      "domain": [
+        -20.0,
+        20.0,
+        -20.0,
+        20.0
+      ],
+      "dt": 0.0005,
+      "grids_M_equals_N": [
+        16,
+        24,
+        32,
+        48
+      ],
+      "operator_cache": "cleared before each timed construction",
+      "packet": {
+        "amplitude": 0.25,
+        "center": [
+          0.0,
+          0.0
+        ],
+        "sigma_x": 4.5,
+        "sigma_y": 3.0,
+        "wave_numbers": [
+          0.35,
+          0.2
+        ],
+        "window": "domain sin-squared window"
+      },
+      "runs_per_grid": 1,
+      "status": "regenerated in final environment",
+      "t_final": 0.005,
+      "thread_setting": "numerical-library defaults"
+    }
+  },
+  "environment": {
+    "matplotlib": "3.11.1",
+    "numpy": "2.5.2",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "python": "3.12.10",
+    "scipy": "1.18.1"
+  },
+  "excluded_archive_sha256": {
+    "outputs_revision/archive_excluded_snapshots/README.md": "f7c8350ac2bd7d1b17e05eb0e86537709259f3bef79aa297d2628e88ae8b76e7",
+    "outputs_revision/archive_excluded_snapshots/exp2_earlier_default_packet/t_0.010000.npz": "bfd24b517364029c976c83883447b0c6f5c2c25d46ccc30f0f3f881493d5f4c6",
+    "outputs_revision/archive_excluded_snapshots/exp2_earlier_default_packet/t_0.020000.npz": "be13733be48b4d980d6c357a8b9026f3cb5ecfb548e6f8ab345ee91b5c62cd84"
+  },
+  "generated_utc": "2026-10-09T14:38:36.503415+00:00",
+  "policy": "Only active artifacts support the revised dissertation. Files in archive_excluded_snapshots are retained solely for provenance.",
+  "provenance_note": "Manifest of release 1.1.0 (final version of the thesis, 2026-10-09). The 'environment' field describes the machine that generated this manifest. The exp1-exp9 artifacts are unchanged from the v3 snapshot (see requirements-lock.txt); exp10, exp11, and exp12 were added for v4 in the environment recorded in their configuration entries; the three v4 figures of exp2 were drawn from the archived exp2 snapshots.",
+  "schema_version": 1
+}

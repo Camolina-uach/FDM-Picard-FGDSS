@@ -1,0 +1,63 @@
+{
+  "title": "Conservative Crank–Nicolson–Ortigueira–Picard finite-difference solver for the fractional generalized Davey–Stewartson system",
+  "upload_type": "software",
+  "version": "1.1.0",
+  "publication_date": "2026-10-09",
+  "description": "<p>Reference Python implementation and reproducibility package of the PhD thesis <em>Theoretical and Numerical Analysis of the Fractional Davey–Stewartson System</em> (Carlos Alberto Molina Holguín; Doctorado en Ciencia y Tecnología, Applied Mathematics, Centro Universitario de los Lagos, Universidad de Guadalajara, 2026; advisors: Dr. Luis Armando Gallegos Infante and Dr. Jorge Eduardo Macías Díaz).</p><p>The code implements a conservative Crank–Nicolson finite-difference scheme for the fractional generalized Davey–Stewartson system (FGDSS), with Ortigueira centered differences for the Riesz operators, homogeneous Dirichlet conditions by zero extension, and a Picard iteration that solves the long-wave subsystem at the midpoint density. It conserves the discrete mass and Hamiltonian exactly and reports the momentum residual balance. The package contains the experiment drivers, the regression tests, and the archived results of every figure and table of Chapter 5 of the thesis, with a SHA-256 manifest.</p>",
+  "creators": [
+    {
+      "name": "Molina-Holguín, Carlos Alberto",
+      "affiliation": "Universidad de Guadalajara",
+      "orcid": "0009-0003-7469-595X"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Gallegos-Infante, Luis Armando",
+      "affiliation": "Universidad de Guadalajara",
+      "orcid": "0000-0002-2866-4306",
+      "type": "Supervisor"
+    },
+    {
+      "name": "Macías-Díaz, Jorge Eduardo",
+      "affiliation": "Universidad Autónoma de Aguascalientes",
+      "orcid": "0000-0002-7580-7533",
+      "type": "Supervisor"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "fractional Davey–Stewartson system",
+    "Riesz fractional derivative",
+    "Ortigueira centered differences",
+    "Crank–Nicolson scheme",
+    "Picard iteration",
+    "structure-preserving scheme",
+    "reproducible research"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.1002/mma.70351",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.5281/zenodo.23030677",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "10.5281/zenodo.22891244",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://github.com/Camolina-uach/FDM-Picard-FGDSS",
+      "relation": "isSupplementedBy",
+      "scheme": "url"
+    }
+  ]
+}

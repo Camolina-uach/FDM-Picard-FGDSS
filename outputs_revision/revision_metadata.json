@@ -1,0 +1,64 @@
+{
+  "verification_date": "2026-07-31",
+  "final_verification_and_render_environment": {
+    "python": "3.13.8",
+    "numpy": "2.3.3",
+    "scipy": "1.16.2",
+    "matplotlib": "3.10.7",
+    "blas_lapack": "3.9.0 (NumPy build metadata)",
+    "thread_setting": "Numerical-library defaults; no explicit BLAS/OMP thread environment variables"
+  },
+  "retained_numerical_run_environment": {
+    "applies_to": ["exp2", "exp4", "exp5", "exp6", "exp7"],
+    "python": "3.13.2",
+    "numpy": "2.3.2",
+    "scipy": "1.16.1",
+    "matplotlib": "3.10.6",
+    "note": "These retained CSV/NPZ results were checked during the review; all final figures and tables were rendered with the final verification environment."
+  },
+  "hardware": {
+    "model": "MacBook Air (Mac15,12)",
+    "processor": "Apple M3, 8 cores (4 performance and 4 efficiency)",
+    "memory": "8 GB",
+    "operating_system": "macOS 26.5.2"
+  },
+  "regenerated_experiments": {
+    "exp1_operator_verification": {
+      "M": [16, 24, 32, 48],
+      "orders": [1.2, 1.5, 1.8, 2.0],
+      "checks": ["symmetry", "complete one-dimensional spectrum", "sample quadratic form"]
+    },
+    "exp3_time_convergence": {
+      "M": 24,
+      "t_final": 0.016,
+      "dt": [0.0016, 0.0008, 0.0004, 0.0002, 0.0001],
+      "picard_tolerance": 1e-13
+    },
+    "exp8_boundary_domain_sweep": {
+      "dt": 0.0005,
+      "t_final": 0.01,
+      "h": 1.0,
+      "half_widths": [8.0, 12.0, 16.0, 24.0],
+      "window_half_width": 8.0
+    },
+    "exp9_performance_scaling": {
+      "dt": 0.0005,
+      "t_final": 0.005,
+      "M": [16, 24, 32, 48],
+      "runs_per_grid": 1,
+      "operator_cache": "cleared before each timed solver construction"
+    }
+  },
+  "retained_run_checks": {
+    "exp2_source_free_conservation": {
+      "saved_diagnostic_times": 11,
+      "all_saved_picard_converged": true,
+      "maximum_saved_picard_iterations": 3,
+      "active_snapshot_times": [0.0, 0.5, 1.0],
+      "excluded_snapshot_times": [0.01, 0.02],
+      "provenance_note": "The retained long conservation run records the earlier permissive fail_on_nonconvergence setting. Every saved diagnostic is converged; the revised solver now rejects any unconverged time step."
+    }
+  },
+  "tests": "python -m unittest discover -s tests -v: 10 passed",
+  "note": "Experiments 1, 3, 8, and 9 were regenerated during the final review. The remaining experiment outputs were checked against the verified thesis run and their tables were regenerated with the revised formatter."
+}

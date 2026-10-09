@@ -1,0 +1,45 @@
+# Citation metadata (Citation File Format 1.2.0).
+# CFF has no field for contributors; the advisors of the thesis are listed as
+# contributors with the role "Supervisor" in .zenodo.json.
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the thesis."
+title: "Conservative Crank–Nicolson–Ortigueira–Picard finite-difference solver for the fractional generalized Davey–Stewartson system"
+abstract: >-
+  Reference Python implementation and reproducibility package of the PhD thesis
+  "Theoretical and Numerical Analysis of the Fractional Davey–Stewartson System"
+  (Universidad de Guadalajara, 2026). A conservative Crank–Nicolson
+  finite-difference scheme for the fractional generalized Davey–Stewartson
+  system (FGDSS), with Ortigueira centered differences for the Riesz operators
+  and a Picard iteration for the nonlinear coupling, together with the
+  experiment drivers, tests, and archived results of every figure and table of
+  Chapter 5 of the thesis.
+type: software
+authors:
+  - family-names: "Molina-Holguín"
+    given-names: "Carlos Alberto"
+    orcid: "https://orcid.org/0009-0003-7469-595X"
+    affiliation: "Universidad de Guadalajara"
+version: "1.1.0"
+date-released: "2026-10-09"
+doi: "10.5281/zenodo.23265326"
+license: MIT
+repository-code: "https://github.com/Camolina-uach/FDM-Picard-FGDSS"
+keywords:
+  - fractional Davey–Stewartson system
+  - Riesz fractional derivative
+  - Ortigueira centered differences
+  - Crank–Nicolson scheme
+  - Picard iteration
+  - structure-preserving scheme
+  - reproducible research
+references:
+  - type: thesis
+    title: "Theoretical and Numerical Analysis of the Fractional Davey–Stewartson System"
+    authors:
+      - family-names: "Molina-Holguín"
+        given-names: "Carlos Alberto"
+        orcid: "https://orcid.org/0009-0003-7469-595X"
+    institution:
+      name: "Universidad de Guadalajara, Centro Universitario de los Lagos"
+    thesis-type: "PhD thesis"
+    year: 2026
