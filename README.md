@@ -8,7 +8,12 @@ Reference implementation and reproducibility package of the PhD thesis
 > de los Lagos, Universidad de Guadalajara, 2026.
 > Advisors: Dr. Luis Armando Gallegos Infante and Dr. Jorge Eduardo Macías Díaz.
 
-Version 1.1.0 is archived on Zenodo: <https://doi.org/10.5281/zenodo.23265326>.
+The software is archived on Zenodo:
+
+- all versions (always resolves to the latest):
+  [10.5281/zenodo.23265325](https://doi.org/10.5281/zenodo.23265325)
+- version 1.1.0 (final version of the thesis):
+  [10.5281/zenodo.23265326](https://doi.org/10.5281/zenodo.23265326)
 
 The code solves the fractional generalized Davey–Stewartson system (FGDSS) with
 
@@ -160,5 +165,6 @@ are archived separately:
 Released under the MIT License (see `LICENSE`). If you use this code, please
 cite both the software (`CITATION.cff`) and the thesis.
 
-- Archived version 1.1.0: <https://doi.org/10.5281/zenodo.23265326>
+- All versions: <https://doi.org/10.5281/zenodo.23265325>
+- Version 1.1.0: <https://doi.org/10.5281/zenodo.23265326>
 - Repository: <https://github.com/Camolina-uach/FDM-Picard-FGDSS>

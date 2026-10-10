@@ -6,7 +6,7 @@
     "CHANGELOG.md": "f9de1b20b46f73b4574fe1068e0143dcb417a2fcabbeae4f2fc7e6707be677ff",
     "CITATION.cff": "002a7a6c1851a6c8f008a4c7bfc25e6c8ec268dc6548da9c1a5cf28e3c594e2e",
     "LICENSE": "1e5d3a18cb1d0012a2b2c0239499ac8327475aa7b0e7c7ee62855a7e3a461f16",
-    "README.md": "31ff5d9330cf2288f0b58e1dd25ee64cf413c4fd47b18067205e5afa2a268195",
+    "README.md": "ad2c9dcc6b3696f0401c3f216a8803fc0cba3347a4a0cf711fa1e85852258d61",
     "exp10_manufactured_longwave.py": "eab512afada0aa7193693bde806f43fc0ef7555ca0a060647a83a112bf591c23",
     "exp11_longwave_matrix_spectrum.py": "7d0c0b9aec9189e4a84251d4f0ec46a65478952af60db71178072de6a7f4a1c2",
     "exp12_fractional_order_profiles.py": "9cc3c1fda5e285c94c4aabcea80854b3113d88a61e551471b5c2f7bf445c0d50",
@@ -568,7 +568,7 @@
     "outputs_revision/archive_excluded_snapshots/exp2_earlier_default_packet/t_0.010000.npz": "bfd24b517364029c976c83883447b0c6f5c2c25d46ccc30f0f3f881493d5f4c6",
     "outputs_revision/archive_excluded_snapshots/exp2_earlier_default_packet/t_0.020000.npz": "be13733be48b4d980d6c357a8b9026f3cb5ecfb548e6f8ab345ee91b5c62cd84"
   },
-  "generated_utc": "2026-10-09T14:38:36.503415+00:00",
+  "generated_utc": "2026-10-10T17:50:19.073033+00:00",
   "policy": "Only active artifacts support the revised dissertation. Files in archive_excluded_snapshots are retained solely for provenance.",
   "provenance_note": "Manifest of release 1.1.0 (final version of the thesis, 2026-10-09). The 'environment' field describes the machine that generated this manifest. The exp1-exp9 artifacts are unchanged from the v3 snapshot (see requirements-lock.txt); exp10, exp11, and exp12 were added for v4 in the environment recorded in their configuration entries; the three v4 figures of exp2 were drawn from the archived exp2 snapshots.",
   "schema_version": 1
